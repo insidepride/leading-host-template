@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.pnpm-store/
+.vinext/
+.wrangler/
+dist/
+tmp/
+work/preview-server.mjs
