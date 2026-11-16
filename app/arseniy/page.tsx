@@ -65,9 +65,9 @@ export default function ArseniyPage() {
   return (
     <main className={styles.page}>
       <header className={styles.header}>
-        <a className={styles.logo} href="#top" aria-label="Алекс Ветров — наверх">
+        <a className={styles.logo} href="#top" aria-label="Ваше имя — наверх">
           <span>А</span>
-          <span className={styles.logoText}>Алекс Ветров<small>ведущий событий · демо</small></span>
+          <span className={styles.logoText}>Ваше имя<small>ведущий событий · демо</small></span>
         </a>
         <nav aria-label="Основная навигация">
           <a href="#about">О ведущем</a>
@@ -81,8 +81,8 @@ export default function ArseniyPage() {
         <div className={styles.heroCopy}>
           <p className={styles.eyebrow}>Москва · Санкт-Петербург · Ваш город</p>
           <h1>
-            <span>Алекс</span>
-            <span className={styles.serif}>Ветров</span>
+            <span>Ваше</span>
+            <span className={styles.serif}>имя</span>
           </h1>
           <div className={styles.heroFooter}>
             <p>Ведущий, который слышит людей, чувствует момент и помогает событию оставаться настоящим.</p>
@@ -221,7 +221,7 @@ export default function ArseniyPage() {
           <span role="link" aria-disabled="true"><b>Instagram</b><small>скоро</small></span>
         </div>
         <footer>
-          <a className={styles.logo} href="#top"><span>А</span><span className={styles.logoText}>Алекс Ветров<small>ведущий событий · демо</small></span></a>
+          <a className={styles.logo} href="#top"><span>А</span><span className={styles.logoText}>Ваше имя<small>ведущий событий · демо</small></span></a>
           <p>Москва · Санкт-Петербург · Ваш город</p>
           <a href="#top">Наверх ↑</a>
         </footer>
