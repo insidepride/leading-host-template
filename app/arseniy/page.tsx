@@ -91,7 +91,7 @@ export default function ArseniyPage() {
         </div>
 
         <div className={styles.heroPortrait}>
-          <Image src="/demo-hero.png" alt="Премиальный зал для события" width={1024} height={1536} priority />
+          <Image src="/demo-hero.png" alt="Ведущий общается с гостями на вечернем событии" width={1024} height={1536} priority />
           <div className={styles.imageLabel}><span>Демо-визуал</span><b>Легко. С юмором. Про вас.</b></div>
           <span className={styles.imageIndex}>01 / 05</span>
         </div>
@@ -108,7 +108,7 @@ export default function ArseniyPage() {
 
       <section className={styles.profile}>
         <div className={styles.profileVisual}>
-          <div className={styles.cropFrame}><Image src="/demo-stage.png" alt="Сцена и микрофон для события" width={1024} height={1536} /></div>
+          <div className={styles.cropFrame}><Image src="/demo-stage.png" alt="Ведущий вовлекает гостей в разговор" width={1024} height={1536} /></div>
           <span className={styles.outlineWord}>ведущий</span>
         </div>
         <div className={styles.profileCopy}>
@@ -144,7 +144,7 @@ export default function ArseniyPage() {
 
       <section className={styles.reviews} id="reviews" aria-labelledby="reviews-title">
         <div className={styles.reviewsVisual}>
-          <Image src="/demo-audience.png" alt="Гости события аплодируют" width={1536} height={1024} />
+          <Image src="/demo-audience.png" alt="Гости смеются и общаются за праздничным столом" width={1536} height={1024} />
         </div>
         <div className={styles.reviewsCopy}>
           <p className={styles.label}>Говорят клиенты</p>
